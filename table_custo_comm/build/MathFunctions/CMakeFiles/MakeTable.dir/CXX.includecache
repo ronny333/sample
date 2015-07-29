@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/radix/cmake/table_custo_comm/MathFunctions/MakeTable.cxx
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+TutorialConfig.h
+/home/radix/cmake/table_custo_comm/MathFunctions/TutorialConfig.h
+MathFunctions.h
+/home/radix/cmake/table_custo_comm/MathFunctions/MathFunctions.h
+
+/home/radix/cmake/table_custo_comm/MathFunctions/MathFunctions.h
+
+TutorialConfig.h
+

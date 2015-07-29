@@ -1,0 +1,3 @@
+/home/radix/cmake/table_custo_comm/build/MathFunctions/CMakeFiles/MakeTable.dir
+/home/radix/cmake/table_custo_comm/build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/radix/cmake/table_custo_comm/build/CMakeFiles/Tutorial.dir

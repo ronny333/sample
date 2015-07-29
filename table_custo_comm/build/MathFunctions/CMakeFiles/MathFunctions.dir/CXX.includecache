@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/radix/cmake/table_custo_comm/MathFunctions/MathFunctions.h
+
+/home/radix/cmake/table_custo_comm/MathFunctions/mysqrt.cxx
+MathFunctions.h
+/home/radix/cmake/table_custo_comm/MathFunctions/MathFunctions.h
+
