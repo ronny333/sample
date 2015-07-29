@@ -1,2 +1,3 @@
 http://docs.gadgetkeeper.com/pages/viewpage.action?pageId=9601893
 http://robomq.readthedocs.org/en/latest/deviceIntegration/
+https://learn.sparkfun.com/tutorials/raspberry-gpio
