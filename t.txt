@@ -1,0 +1,11 @@
+- For enable wifi,need to install some packages related to dhcp.Update sources.list ,collabora.list, raspi.list files.Updated raspberry packages.
+- Link : https://learn.adafruit.com/downloads/pdf/setting-up-a-raspberry-pi-as-a-wifi-access-point.pdf
+
+Taken Belkin F5D7050 USB Wireless adapter.It supports raspberry pi.Check from Link : http://elinux.org/RPi_USB_Wi-Fi_Adapters
+Initially device was not supported.Downloaded Debian package from link : http://ftp.debian.org/debian/pool/non-free/z/zd1211-firmware/firmware-zd1211_3.0.0.56-3_all.deb. Use "dpkg - i <package_name>" command and reboot PI board.Now Wifi adapter supports.
+
+But when given command sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf for starting wifi access point,it was giving error of driver.So change hostapd.conf file and taken driver=nl80211 as in most cases it works(written on one link).
+To solve that take hostapd repository from Link : http://dev.gateworks.com/sources/hostapd-2014-06-03.tar.bz2 .Compile it(using make command).Solve some library related issues(openssl and libnl library 
+- Links : Client-server communication: http://cs.smith.edu/dftwiki/index.php/Tutorial:_Client/Server_on_the_Raspberry_Pi
+mDNS(Multicast DNS) : https://en.wikipedia.org/wiki/Multicast_DNS
+
